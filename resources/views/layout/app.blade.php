@@ -7,9 +7,7 @@
 	<link rel="icon" href="{{ url('css/favicon.ico') }}">
 </head>
 <body>
-
 @include('layout.menu')
-
 
 
 @yield('content')
@@ -19,6 +17,8 @@
 
 
 @include('layout.footer')
+
+
 
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/popper.min.js')}}"></script>
